@@ -1,0 +1,36 @@
+div.my-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 25px;
+    width: 100%;
+    z-index:1;
+}
+div.my-footer span  {
+    font-size: 10pt;
+    left: 50%;
+    bottom: -5px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: red;
+
+}
+
+div.my-footer a {
+  color: #2F4F4F;
+}
+
+div.shadow {
+  -webkit-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+padding-left: 1em;
+padding-right: 1em;
+padding-top: .5em;
+padding-bottom: .5em;
+font-size: .7em;
+line-height: 2em;
+}
+
+
